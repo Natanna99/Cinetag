@@ -1,0 +1,15 @@
+.containerError {
+  margin: 5rem 2rem;
+  font-family: var(--fontJersey);
+}
+
+.containerError h2 {
+  font-size: var(--h1-font-size);
+  color: var(--oragen-medium);
+  font-weight: 700;
+}
+
+.containerError p {
+  font-size: var(--h4-font-size);
+  color: var(--fav-default-color);
+}
