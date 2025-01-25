@@ -1,0 +1,29 @@
+.container {
+  margin: 1.5rem;
+}
+
+.containerBanner {
+  height: 12.5rem;
+}
+
+.containerImg {
+  border-radius: 1.25rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 5rem 1.5rem;
+  }
+  .containerBanner {
+    height: 15.625rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .containerBanner {
+    height: 18.75rem;
+  }
+}
