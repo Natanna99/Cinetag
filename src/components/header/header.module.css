@@ -1,0 +1,54 @@
+.containerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--nav-background);
+  color: var(--text-primary);
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+}
+
+.iconMenu {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.containerMenuInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-right: 0.625rem;
+}
+
+.containerLogo {
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+.logo {
+  margin: 0.5rem;
+  display: none;
+  font-family: var(--fontPermanentMarker);
+}
+
+.iconLogo {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  color: var(--background);
+}
+
+@media screen and (min-width: 768px) {
+  .iconMenu {
+    margin-right: 1.875rem;
+  }
+  .containerMenuInput {
+    justify-content: start;
+  }
+
+  .logo {
+    display: block;
+  }
+}
