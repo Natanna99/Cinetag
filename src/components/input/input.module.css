@@ -1,0 +1,23 @@
+.inputSearch {
+  height: 2.188rem;
+  width: 50%;
+  border-radius: 0.625rem;
+  background: transparent;
+  border: 0.188rem solid var(--oragen-light);
+  padding: 0.625rem;
+  color: var(--text-primary);
+}
+
+.inputSearch:focus {
+  outline: none;
+}
+
+.inputSearch::placeholder {
+  color: var(--text-primary);
+}
+
+@media screen and (min-width: 768px) {
+  .inputSearch {
+    height: 2.813rem;
+  }
+}
