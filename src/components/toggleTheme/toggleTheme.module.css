@@ -1,0 +1,8 @@
+.toggleTheme {
+  color: var(--background);
+  font-weight: 700;
+}
+
+.toggleTheme input {
+  background-color: var(--background) !important;
+}
