@@ -1,6 +1,7 @@
 .containerFooter {
-  display: flex;
-  justify-content: end;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   height: 3.125rem;
   margin-top: 3.125rem;
   background: var(--nav-background);
