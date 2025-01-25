@@ -1,14 +1,19 @@
 :root {
-  --background: #181818;
-  --nav-background: #2e1a47;
+  --background: #454545;
+  --nav-background: #ff6000;
   --card-background: #333333;
   --text-primary: #ffffff;
   --text-secondary: #dcdcdc;
-  --fav-default-color: #ffffff;
-  --fav-select-color: #e67e22;
-  --fav-select-color-hover: #d35400;
+
+  --oragen-white: #ffe6c7;
+  --oragen-light: #ffa559;
+  --oragen-medium: #e67e22;
+  --oragen-dark: #d35400;
+  --select: #333333;
 
   --font: "Roboto", sans-serif;
+  --fontJersey: "Jersey 15", serif;
+  --fontPermanentMarker: "Permanent Marker", serif;
 
   --h1-font-size: 5rem;
   --h2-font-size: 2.5rem;
@@ -19,8 +24,9 @@
 }
 
 .light-theme {
-  --background: white;
-  --text-primary: black;
+  --background: #ffe6c7;
+  --text-secondary: #333333;
+  --card-background: #e67e22;
 }
 
 body {
@@ -29,7 +35,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--background);
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
 
 h1,
@@ -38,7 +44,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   font-weight: 400;
   margin: 0;
 }
