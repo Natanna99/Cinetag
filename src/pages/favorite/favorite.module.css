@@ -1,0 +1,18 @@
+.containerFavorite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin: 1.5rem;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .containerFavorite {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 80px;
+  }
+}
