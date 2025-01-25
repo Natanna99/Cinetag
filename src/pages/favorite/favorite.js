@@ -1,21 +1,22 @@
 import { Banner } from "components/banner";
-import style from "./home.module.css";
 import { Card } from "components/card";
-import { useContext } from "react";
 import { FilmContext } from "context/filmContext";
+import { useContext } from "react";
+import style from "./favorite.module.css";
 
-export function Home() {
+export function Favorite() {
   const { listLike } = useContext(FilmContext);
+  const favorite = listLike?.filter((item) => item.like === true);
 
   return (
     <div>
       <Banner />
-      <div className={style.containerHome}>
-        <h3>Videos disponiveis</h3>
+      <div className={style.containerFavorite}>
+        <h3>Favoritos</h3>
       </div>
 
-      <div className={style.containerHome}>
-        {listLike?.map((item) => (
+      <div className={style.containerFavorite}>
+        {favorite?.map((item) => (
           <Card
             key={item.id}
             title={item?.title}

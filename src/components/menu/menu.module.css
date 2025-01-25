@@ -1,0 +1,70 @@
+.containerMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32%;
+  min-width: 13.75rem;
+  height: 12.5rem;
+  background: linear-gradient(
+    150deg,
+    var(--oragen-dark) 20%,
+    var(--oragen-medium) 50%
+  );
+  z-index: 100;
+  gap: 1.25rem;
+  padding: 1.25rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.menuItem {
+  display: flex;
+  gap: 0.938rem;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menuItemSelect {
+  display: flex;
+  gap: 0.938rem;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--select);
+}
+
+.close {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: var(--oragen-light);
+}
+
+.menuItemDesactive {
+  display: flex;
+  gap: 0.938rem;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--oragen-white);
+  cursor: not-allowed;
+  text-decoration: none;
+}
